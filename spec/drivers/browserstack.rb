@@ -24,8 +24,7 @@ module BrowserstackTest::Capabilities
         "browser_version" => "11.0",
         "browserstack.selenium_version" => "2.53.1",
         "browserstack.ie.driver" => "2.53.1",
-        "browserstack.ie.arch" => "x32",
-        "browserstack.customSendKeys" => 800 }
+        "browserstack.ie.arch" => "x32" }
     else
       { "browser" => "Chrome",
         "browser_version" => "68.0",
