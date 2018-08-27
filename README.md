@@ -1,7 +1,7 @@
 # README
 ## Get the app running on your dev machine
 
-`git clone https://www.github.com/....?whatrepo?`
+`git clone git@github.com:lazylester/browserstack_test.git`
 
 `cd browserstack_test`
 
