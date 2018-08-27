@@ -21,11 +21,19 @@ then you should be able to point your browser to localhost:3000/users
 
 ## Run on BrowserStack
 
-`export browserstack_user=<your browserstack username>`
-`export browserstack_key=<your browserstack key>`
+```
+export browserstack_user=<your browserstack username>
+```
+```
+export browserstack_key=<your browserstack key>
+```
 
 to run on IE11/Windows
-`BROWSER=ie rspec spec`
+```
+BROWSER=ie rspec spec
+```
 
 to run on Chrome/Windows
-`BROWSER=chrome rspec spec`
+```
+BROWSER=chrome rspec spec
+```
