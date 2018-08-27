@@ -37,3 +37,5 @@ to run on Chrome/Windows
 ```
 BROWSER=chrome rspec spec
 ```
+## Test browserstack capabilities
+The capabilities configuration for BrowserStack is contained in the spec/drivers/browserstack.rb file. The troublesome configuration is Internet Explorer. Chrome is reliable.
