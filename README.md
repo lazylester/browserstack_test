@@ -1,24 +1,31 @@
 # README
+## Get the app running on your dev machine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+`git clone https://www.github.com/....?whatrepo?`
 
-Things you may want to cover:
+`cd browserstack_test`
 
-* Ruby version
+`bundle install`
 
-* System dependencies
+`rake db:migrate && rake db:test:prepare`
 
-* Configuration
+## Check that it's running
 
-* Database creation
+`rails server`
 
-* Database initialization
+then you should be able to point your browser to localhost:3000/users
 
-* How to run the test suite
+## Run the tests locally
 
-* Services (job queues, cache servers, search engines, etc.)
+`rspec spec/features`
 
-* Deployment instructions
+## Run on BrowserStack
 
-* ...
+`export browserstack_user=<your browserstack username>`
+`export browserstack_key=<your browserstack key>`
+
+to run on IE11/Windows
+`BROWSER=ie rspec spec`
+
+to run on Chrome/Windows
+`BROWSER=chrome rspec spec`
